@@ -1,0 +1,224 @@
+@font-face {font-family: 'iconfontyyy';
+    src: url('../iconfont.eot');
+    src: url('../iconfont.eot?#iefix') format('embedded-opentype'),
+    url('../iconfont.woff') format('woff'),
+    url('../iconfont.ttf') format('truetype'),
+    url('../iconfont.svg#iconfontyyy') format('svg');
+}
+.iconfontyyy{
+    font-family:"iconfontyyy" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+    *{
+    margin:0;
+    padding:0;
+    }
+    %full{
+     width:100%;
+     height:100%;
+     overflow:hidden;
+    }
+    ul li{
+      list-style:none;
+    }
+    html,body{
+     @extend %full;
+    }
+    @mixin pos($p:relative){
+      position:$p;
+    }
+    .con{@extend %full;
+        display:flex;
+        flex-direction:column;
+
+    }
+    main{
+      flex:1;
+      width:100%;
+       height:20rem;
+      overflow:hidden;
+      .iscroll{
+        width:100%;
+        overflow:hidden;
+       
+      }
+    .nav{
+    .bg{
+      background:red;
+      color:#fff;
+    }
+      width:100%;
+      height:3rem;
+      background:#F3F3F3;
+      padding-top:1rem;
+      ul{ 
+      border-radius:6px;
+      margin-left:10%;
+       display:flex;
+       line-height:2rem;
+       text-align:center;
+       li{ width:33%;
+           height:100%;
+           border:1px solid #ccc;
+     
+       }
+
+        width:80%;
+        height:2rem;
+       
+      }
+    }
+    .nav1{
+       width:100%;
+       height:3rem;
+       ul{
+        width:100%;
+        height:100%;
+        display:flex;
+        margin-top:1rem;
+         margin-left:10%;
+         @include pos;
+     
+        li{flex:1;
+        
+       .img{
+         @include pos(absolute);
+         top:-.2rem;
+       }
+
+        }
+       }
+    }
+    .main{
+      width:100%;
+     
+     
+      dl{ height:8rem;
+         @include pos;  
+         dt{
+
+          @include pos(absolute);
+          top:0;
+          left:0;
+         }
+         h3{
+           @include pos(absolute);
+          top:1.5rem;
+          left:5rem;
+          font-size:15px;
+         }
+         span{
+         font-size:12px;
+         color:#7FDD81;
+           width:40px;
+           height:20px;
+           display:inline-block;
+           border-radius:20px;
+           text-align:center;
+           line-height:20px;
+           border:1px solid #7FDD81;
+            @include pos(absolute);
+          top:1rem;
+          right:.5rem;
+         }
+         b{
+            @include pos(absolute);
+          top:4.5rem;
+          left:5rem;
+          color:#2EACEE;
+         }
+         p{@include pos(absolute);
+          top:4rem;
+          right:.2rem;
+
+
+         }
+         ul{
+         @include pos(absolute);
+          top:6rem;
+          left:2.5rem;
+           display:flex;
+           width:75%;
+           height:1.5rem;
+          
+           font-size:13px;
+           line-height:1.5rem;
+
+           li{
+            flex:1;
+           }
+         }
+         h4{ @include pos(absolute);
+          top:4.5rem;
+          left:9rem;
+
+         }
+          h5{ @include pos(absolute);
+          top:4.5rem;
+          left:15rem;
+
+         }
+      }
+
+    }
+    }
+    header{
+    @include pos;
+     width:100%;
+     height:4rem;
+     display:flex;
+     line-height:4rem;
+
+    .on{
+       color:red;
+        border-bottom:2px solid red;
+    }
+     span{@include pos(absolute);
+         left:20%;
+       display:inline-block;
+       width:80px;
+       height:3rem;
+      
+       line-height:3rem;
+       text-align:center;
+
+     }
+     .s{
+         left:43%;
+     }
+     b{@include pos(absolute);
+       right:1.5rem;
+       top:.2rem;
+
+
+     }
+     p{@include pos(absolute);
+       right:3.5rem;
+       top:-.3rem;
+
+     }
+
+
+    }
+    footer{
+     width:100%;
+     height:4rem;
+    
+
+     display:flex;
+    
+     text-align:center;
+     .size{
+        font-size:25px;
+     }
+     dl{
+       flex:1;
+       margin-top:.5rem;
+       dd{
+          margin-top:.3rem;
+       }
+
+     }
+    }

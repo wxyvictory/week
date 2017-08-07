@@ -1,0 +1,169 @@
+@font-face {
+  font-family: 'iconfontyyy';
+  src: url("../iconfont.eot");
+  src: url("../iconfont.eot?#iefix") format("embedded-opentype"), url("../iconfont.woff") format("woff"), url("../iconfont.ttf") format("truetype"), url("../iconfont.svg#iconfontyyy") format("svg"); }
+.iconfontyyy {
+  font-family: "iconfontyyy" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body, .con {
+  width: 100%;
+  height: 100%;
+  overflow: hidden; }
+
+ul li {
+  list-style: none; }
+
+.con {
+  display: flex;
+  flex-direction: column; }
+
+main {
+  flex: 1;
+  width: 100%;
+  height: 20rem;
+  overflow: hidden; }
+  main .iscroll {
+    width: 100%;
+    overflow: hidden; }
+  main .nav {
+    width: 100%;
+    height: 3rem;
+    background: #F3F3F3;
+    padding-top: 1rem; }
+    main .nav .bg {
+      background: red;
+      color: #fff; }
+    main .nav ul {
+      border-radius: 6px;
+      margin-left: 10%;
+      display: flex;
+      line-height: 2rem;
+      text-align: center;
+      width: 80%;
+      height: 2rem; }
+      main .nav ul li {
+        width: 33%;
+        height: 100%;
+        border: 1px solid #ccc; }
+  main .nav1 {
+    width: 100%;
+    height: 3rem; }
+    main .nav1 ul {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      margin-top: 1rem;
+      margin-left: 10%;
+      position: relative; }
+      main .nav1 ul li {
+        flex: 1; }
+        main .nav1 ul li .img {
+          position: absolute;
+          top: -.2rem; }
+  main .main {
+    width: 100%; }
+    main .main dl {
+      height: 8rem;
+      position: relative; }
+      main .main dl dt {
+        position: absolute;
+        top: 0;
+        left: 0; }
+      main .main dl h3 {
+        position: absolute;
+        top: 1.5rem;
+        left: 5rem;
+        font-size: 15px; }
+      main .main dl span {
+        font-size: 12px;
+        color: #7FDD81;
+        width: 40px;
+        height: 20px;
+        display: inline-block;
+        border-radius: 20px;
+        text-align: center;
+        line-height: 20px;
+        border: 1px solid #7FDD81;
+        position: absolute;
+        top: 1rem;
+        right: .5rem; }
+      main .main dl b {
+        position: absolute;
+        top: 4.5rem;
+        left: 5rem;
+        color: #2EACEE; }
+      main .main dl p {
+        position: absolute;
+        top: 4rem;
+        right: .2rem; }
+      main .main dl ul {
+        position: absolute;
+        top: 6rem;
+        left: 2.5rem;
+        display: flex;
+        width: 75%;
+        height: 1.5rem;
+        font-size: 13px;
+        line-height: 1.5rem; }
+        main .main dl ul li {
+          flex: 1; }
+      main .main dl h4 {
+        position: absolute;
+        top: 4.5rem;
+        left: 9rem; }
+      main .main dl h5 {
+        position: absolute;
+        top: 4.5rem;
+        left: 15rem; }
+
+header {
+  position: relative;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  line-height: 4rem; }
+  header .on {
+    color: red;
+    border-bottom: 2px solid red; }
+  header span {
+    position: absolute;
+    left: 20%;
+    display: inline-block;
+    width: 80px;
+    height: 3rem;
+    line-height: 3rem;
+    text-align: center; }
+  header .s {
+    left: 43%; }
+  header b {
+    position: absolute;
+    right: 1.5rem;
+    top: .2rem; }
+  header p {
+    position: absolute;
+    right: 3.5rem;
+    top: -.3rem; }
+
+footer {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  text-align: center; }
+  footer .size {
+    font-size: 25px; }
+  footer dl {
+    flex: 1;
+    margin-top: .5rem; }
+    footer dl dd {
+      margin-top: .3rem; }
+
+/*# sourceMappingURL=style.css.map */
